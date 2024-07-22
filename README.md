@@ -1,7 +1,31 @@
-# GitHub Codespaces ♥️ Jupyter Notebooks
+# ######### DataRockStarts - Promotion Bob Dylan ##############
+# Projet Fil Rouge dans le cadre de la certification DataAnalyst
 
-Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.
+**Auteur:**
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
+* Yassine R. : yassine.razine@gmail.com
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+
+
+## Démarrage
+
+- Naviguez jusqu'à ce dossier : `cd projet-fil-rouge-{username_github}`
+- Vérifiez que vous voyez bien les fichiers de ce dépôt lorsque vous exécutez `ls`.
+
+### MacOS / Linux
+
+- Dans le terminal, exécutez la commande suivante : `bash setup.sh` pour démarrer le projet. Vous n'aurez pas à le faire les prochaines fois.
+- Exécutez maintenant, `bash run.sh` pour afficher le site crée à l'aide de Streamlit.
+
+### Windows
+
+Exécutez les commandes suivantes, dans l'ordre :
+- Pour installer les librairies utiles et initialiser la base de données :
+
+`pip install --update pip`
+
+`pip install -r requirements.txt`
+
+`python3 setup.py`
+- Pour lancer votre application Streamlit :
+`streamlit run main.py`

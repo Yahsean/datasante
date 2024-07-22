@@ -1,0 +1,27 @@
+/* Style du menu latéral */
+.custom-sidebar {
+    background-color: #f0f2f6; /* Couleur de fond */
+    padding: 1rem; /* Espacement interne */
+    border-right: 2px solid #e6e6e6; /* Bordure droite */
+    height: 100vh; /* Hauteur de la fenêtre */
+    position: fixed; /* Fixer le menu à gauche */
+    top: 0;
+    left: 0;
+    width: 15%; /* Largeur du menu */
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1); /* Ombre portée */
+}
+
+/* Style pour les boutons spéciaux */
+.custom-sidebar .stButton > button {
+    background-color: #0a0e11; /* Couleur de fond des boutons */
+    color: white; /* Couleur du texte des boutons */
+}
+
+.custom-sidebar .stButton > button:hover {
+    background-color: #155a8a; /* Couleur de fond au survol */
+}
+
+/* Style des sections dans le menu */
+.custom-sidebar h2 {
+    color: #333; /* Couleur du texte des sous-titres */
+}

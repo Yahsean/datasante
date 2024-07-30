@@ -9,7 +9,7 @@ from src.router import get_route, redirect
 
 # Configuration de l'application Streamlit
 st.set_page_config(layout="wide", page_title='Projet Fil Rouge')
-st.set_option('deprecation.showPyplotGlobalUse', False)
+#st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Afficher le logo dans le menu latéral
 st.sidebar.image("data/logo.jpg", use_column_width=True)
